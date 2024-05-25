@@ -7,14 +7,13 @@ to correctly type the displayed words within a limited time. The game will displ
 ## Features
 
 - Randomly shuffles words for each game session
-- Tracks the time taken to type each word
-- Displays a message when the word is correctly typed or when the game is over
+- Displays a message when the words are correctly typed or when the game is over
 - Simple and intuitive keyboard controls
 
 ## How to Play
 
 1. Open the game in your browser.
-2. Press `Space` to start the game.
+2. Press `Space` to start the game. The words are displayed
 3. Press `Enter` to start the countdown.
 4. Type the displayed words and press `Enter` to submit.
 5. If you type the word correctly, you can continue to the next words.
