@@ -16,15 +16,15 @@ to correctly type the displayed words within a limited time. The game will displ
 1. Open the game in your browser.
 2. Press `Space` to start the game.
 3. Press `Enter` to start the countdown.
-4. Type the displayed word and press `Enter` to submit.
-5. If you type the word correctly, you can continue to the next word.
-6. If you type the word incorrectly, the game is over.
+4. Type the displayed words and press `Enter` to submit.
+5. If you type the word correctly, you can continue to the next words.
+6. If you type the words incorrectly, the game is over.
 7. Press `Enter` to start a new game after game over.
 
 ## Controls
 
 - `Space`: Start the game
-- `Enter`: Start the countdown / Submit typed word / Start a new game after game over
+- `Enter`: Start the countdown / Submit typed words / Start a new game after game over
 - `Backspace`: Delete the last character while typing
 
 ## Code Overview
