@@ -1,42 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Remember Words</title>
-<style type="text/css">
-
-.body_bg {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255,255,255);
-    font-family:monospace;
-    font-size: 16px;
-}
-
-.can1 {
-    margin: auto;
-    padding: 0;
-    display: block;
-    width: 800px;
-}
-
-.div2 {
-    text-align: center;
-}
-
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remember Words Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        #gameCanvas {
+            border: 1px solid white;
+            background-color: #333;
+            margin: 20px auto;
+            display: block;
+        }
+        #message {
+            margin: 20px;
+            font-size: 20px;
+        }
+    </style>
 </head>
-<body class="body_bg">
-<div class="div2">
-<h1>Remember Words</h1>
-</div>
-<div>
-<canvas class="can1" id="can1" width="800" height="600">
-Canvas not supported
-</canvas><br>
-<div class="div2"><div id="intext">Input: <input type="text" size="50" id="text1" /> <input type="button" id="btn1" value="Try" onclick="checkSame()" /></div></div>
-
-</div>
-
+<body>
+    <h1>Remember Words Game</h1>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <script src="remember_words.js"></script>
 </body>
-<script src="remember.js"></script>
 </html>
